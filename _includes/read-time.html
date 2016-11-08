@@ -1,0 +1,8 @@
+{% assign words = include.content | number_of_words %}
+{% if words < 360 %}
+    1 minuta
+{% elsif words < 900 %}
+    {{ words | divided_by: 180 }} minuty
+{% else %}
+    {{ words | divided_by: 180 }} minut
+{% endif %}
