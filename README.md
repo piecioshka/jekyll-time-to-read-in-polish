@@ -1,6 +1,6 @@
 # jekyll-time-to-read-in-polish
 
-> :hammer: Display time to read (in polish language)
+:hammer: Display time to read (in polish language)
 
 ## Install
 
